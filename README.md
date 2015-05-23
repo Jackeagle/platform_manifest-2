@@ -33,6 +33,5 @@
 # = No.of jobs you want
   For example: repo sync -j4 -f --no-clone-bundle
 (*Note:This will consume a lot of network data)
-Test
 
 
