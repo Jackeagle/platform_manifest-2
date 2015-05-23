@@ -1,123 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="build" name="InfinitiveOS/android_build" >
+  <project path="build" name="InfinitiveOS/build" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <project path="manifest" name="InfinitiveOS/manifest" />
   
-  <project path="art" name="InfinitiveOS/android_art" groups="pdk" />
+  <project path="art" name="InfinitiveOS/art" groups="pdk" />
   
-  <project path="bionic" name="InfinitiveOS/android_bionic" groups="pdk" />
+  <project path="bionic" name="InfinitiveOS/bionic" groups="pdk" />
   
-  <project path="bootable/recovery" name="InfinitiveOS/android_bootable_recovery" groups="pdk" />
+  <project path="bootable/recovery" name="InfinitiveOS/bootable_recovery" groups="pdk" />
   
-  <project path="development" name="InfinitiveOS/android_development" groups="pdk-cw-fs" />
+  <project path="development" name="InfinitiveOS/development" groups="pdk-cw-fs" />
   
-  <project path="device/qcom/sepolicy" name="InfinitiveOS/android_device_qcom_sepolicy" />
+  <project path="device/qcom/sepolicy" name="InfinitiveOS/device_qcom_sepolicy" />
   
-  <project path="external/android-visualizer" name="InfinitiveOS/android_external_android-visualizer" />
-  <project path="external/ant-wireless/ant_native" name="InfinitiveOS/android_external_ant-wireless_ant_native" />
-  <project path="external/ant-wireless/ant_service" name="InfinitiveOS/android_external_ant-wireless_ant_service"  />
-  <project path="external/ant-wireless/antradio-library" name="InfinitiveOS/android_external_ant-wireless_antradio-library"  />
-  <project path="external/bluetooth/bluedroid" name="InfinitiveOS/android_external_bluetooth_bluedroid" groups="pdk" />
-  <project path="external/busybox" name="InfinitiveOS/android_external_busybox" />
-  <project path="external/chromium_org" name="InfinitiveOS/android_external_chromium_org" />
-  <project path="external/chromium_org/third_party/boringssl/src" name="InfinitiveOS/android_external_chromium_org_third_party_boringssl_src" />
-  <project path="external/connectivity" name="InfinitiveOS/android_external_connectivity" />
-  <project path="external/e2fsprogs" name="InfinitiveOS/android_external_e2fsprogs" groups="pdk" />
-  <project path="external/exfat" name="InfinitiveOS/android_external_exfat" groups="pdk" />
-  <project path="external/ffmpeg" name="InfinitiveOS/android_external_ffmpeg" />
-  <project path="external/flac" name="InfinitiveOS/android_external_flac" groups="pdk" />
-  <project path="external/fsck_msdos" name="InfinitiveOS/android_external_fsck_msdos" groups="pdk-cw-fs" />
-  <project path="external/fuse" name="InfinitiveOS/android_external_fuse" groups="pdk" />
-  <project path="external/google" name="InfinitiveOS/android_external_google" groups="pdk-cw-fs" />
-  <project path="external/jpeg" name="InfinitiveOS/android_external_jpeg" groups="pdk" />
-  <project path="external/libnfc-nci" name="InfinitiveOS/android_external_libnfc-nci" groups="pdk" />
-  <project path="external/libnfc-nxp" name="InfinitiveOS/android_external_libnfc-nxp" groups="pdk" />
-  <project path="external/libselinux" name="InfinitiveOS/android_external_libselinux" groups="pdk" />
-  <project path="external/libtar" name="InfinitiveOS/android_external_libtar" groups="pdk" />
-  <project path="external/libxml2" name="InfinitiveOS/android_external_libxml2" groups="pdk-cw-fs" />
-  <project path="external/lz4" name="InfinitiveOS/android_external_lz4" />
-  <project path="external/pigz" name="InfinitiveOS/android_external_pigz" groups="pdk-cw-fs" />
-  <project path="external/qrngd" name="InfinitiveOS/android_external_qrngd" />
-  <project path="external/sepolicy" name="InfinitiveOS/android_external_sepolicy" groups="pdk" />
-  <project path="external/skia" name="InfinitiveOS/android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/stagefright-plugins" name="InfinitiveOS/android_external_stagefright-plugins" />
-  <project path="external/tinyalsa" name="InfinitiveOS/android_external_tinyalsa" groups="pdk" />
-  <project path="external/tinycompress" name="InfinitiveOS/android_external_tinycompress" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="InfinitiveOS/android_external_wpa_supplicant_8" groups="pdk" />
-  <project path="external/zlib" name="InfinitiveOS/android_external_zlib" groups="pdk" />
+  <project path="external/android-visualizer" name="InfinitiveOS/external_android-visualizer" />
+  <project path="external/ant-wireless/ant_native" name="InfinitiveOS/external_ant-wireless_ant_native" />
+  <project path="external/ant-wireless/ant_service" name="InfinitiveOS/external_ant-wireless_ant_service"  />
+  <project path="external/ant-wireless/antradio-library" name="InfinitiveOS/external_ant-wireless_antradio-library"  />
+  <project path="external/bluetooth/bluedroid" name="InfinitiveOS/external_bluetooth_bluedroid" groups="pdk" />
+  <project path="external/busybox" name="InfinitiveOS/external_busybox" />
+  <project path="external/chromium_org" name="InfinitiveOS/external_chromium_org" />
+  <project path="external/chromium_org/third_party/boringssl/src" name="InfinitiveOS/external_chromium_org_third_party_boringssl_src" />
+  <project path="external/connectivity" name="InfinitiveOS/external_connectivity" />
+  <project path="external/e2fsprogs" name="InfinitiveOS/external_e2fsprogs" groups="pdk" />
+  <project path="external/exfat" name="InfinitiveOS/external_exfat" groups="pdk" />
+  <project path="external/ffmpeg" name="InfinitiveOS/external_ffmpeg" />
+  <project path="external/flac" name="InfinitiveOS/external_flac" groups="pdk" />
+  <project path="external/fsck_msdos" name="InfinitiveOS/external_fsck_msdos" groups="pdk-cw-fs" />
+  <project path="external/fuse" name="InfinitiveOS/external_fuse" groups="pdk" />
+  <project path="external/google" name="InfinitiveOS/external_google" groups="pdk-cw-fs" />
+  <project path="external/jpeg" name="InfinitiveOS/external_jpeg" groups="pdk" />
+  <project path="external/libnfc-nci" name="InfinitiveOS/external_libnfc-nci" groups="pdk" />
+  <project path="external/libnfc-nxp" name="InfinitiveOS/external_libnfc-nxp" groups="pdk" />
+  <project path="external/libselinux" name="InfinitiveOS/external_libselinux" groups="pdk" />
+  <project path="external/libtar" name="InfinitiveOS/external_libtar" groups="pdk" />
+  <project path="external/libxml2" name="InfinitiveOS/external_libxml2" groups="pdk-cw-fs" />
+  <project path="external/lz4" name="InfinitiveOS/external_lz4" />
+  <project path="external/pigz" name="InfinitiveOS/external_pigz" groups="pdk-cw-fs" />
+  <project path="external/qrngd" name="InfinitiveOS/external_qrngd" />
+  <project path="external/sepolicy" name="InfinitiveOS/external_sepolicy" groups="pdk" />
+  <project path="external/skia" name="InfinitiveOS/external_skia" groups="pdk-cw-fs,qcom_msm8x26" />
+  <project path="external/stagefright-plugins" name="InfinitiveOS/external_stagefright-plugins" />
+  <project path="external/tinyalsa" name="InfinitiveOS/external_tinyalsa" groups="pdk" />
+  <project path="external/tinycompress" name="InfinitiveOS/external_tinycompress" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="InfinitiveOS/external_wpa_supplicant_8" groups="pdk" />
+  <project path="external/zlib" name="InfinitiveOS/external_zlib" groups="pdk" />
 
-  <project path="frameworks/av" name="InfinitiveOS/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="InfinitiveOS/android_frameworks_base" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="InfinitiveOS/android_frameworks_native" groups="pdk" />
-  <project path="frameworks/opt/bluetooth" name="InfinitiveOS/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/calendar" name="InfinitiveOS/android_frameworks_opt_calendar" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/chips" name="InfinitiveOS/android_frameworks_opt_chips" />
-  <project path="frameworks/opt/datetimepicker" name="InfinitiveOS/android_frameworks_opt_datetimepicker" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/hardware" name="InfinitiveOS/android_frameworks_opt_hardware" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/mms" name="InfinitiveOS/android_frameworks_opt_mms" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/net/ims" name="InfinitiveOS/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" />
-  <project path="frameworks/opt/net/wifi" name="InfinitiveOS/android_frameworks_opt_net_wifi" groups="pdk" />
-  <project path="frameworks/opt/telephony" name="InfinitiveOS/android_frameworks_opt_telephony" groups="pdk" />
+  <project path="frameworks/av" name="InfinitiveOS/frameworks_av" groups="pdk" />
+  <project path="frameworks/base" name="InfinitiveOS/frameworks_base" groups="pdk-cw-fs" />
+  <project path="frameworks/native" name="InfinitiveOS/frameworks_native" groups="pdk" />
+  <project path="frameworks/opt/bluetooth" name="InfinitiveOS/frameworks_opt_bluetooth" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/calendar" name="InfinitiveOS/frameworks_opt_calendar" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/chips" name="InfinitiveOS/frameworks_opt_chips" />
+  <project path="frameworks/opt/datetimepicker" name="InfinitiveOS/frameworks_opt_datetimepicker" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/hardware" name="InfinitiveOS/frameworks_opt_hardware" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/mms" name="InfinitiveOS/frameworks_opt_mms" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/net/ims" name="InfinitiveOS/frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" />
+  <project path="frameworks/opt/net/wifi" name="InfinitiveOS/frameworks_opt_net_wifi" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="InfinitiveOS/frameworks_opt_telephony" groups="pdk" />
 
-  <project path="hardware/broadcom/libbt" name="InfinitiveOS/android_hardware_broadcom_libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="InfinitiveOS/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
-  <project path="hardware/cm" name="InfinitiveOS/android_hardware_cm" />
-  <project path="hardware/libhardware" name="InfinitiveOS/android_hardware_libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="InfinitiveOS/android_hardware_libhardware_legacy" groups="pdk" />
-  <project path="hardware/qcom/audio/default" name="InfinitiveOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
-  <project path="hardware/qcom/bt" name="InfinitiveOS/android_hardware_qcom_bt" groups="qcom" />
-  <project path="hardware/qcom/display" name="InfinitiveOS/android_hardware_qcom_display" groups="qcom,qcom_display" />
-  <project path="hardware/qcom/gps" name="InfinitiveOS/android_hardware_qcom_gps" groups="qcom" />
-  <project path="hardware/qcom/keymaster" name="InfinitiveOS/android_hardware_qcom_keymaster" groups="qcom" />
-  <project path="hardware/qcom/media/default" name="InfinitiveOS/android_hardware_qcom_media" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="InfinitiveOS/android_hardware_qcom_wlan" groups="qcom_wlan" />
-  <project path="hardware/ril" name="InfinitiveOS/android_hardware_ril" groups="pdk" />
-  <project path="hardware/ril-caf" name="InfinitiveOS/android_hardware_ril" groups="pdk" revision="lollipop-mr1-caf" />
+  <project path="hardware/broadcom/libbt" name="InfinitiveOS/hardware_broadcom_libbt" groups="pdk" />
+  <project path="hardware/broadcom/wlan" name="InfinitiveOS/hardware_broadcom_wlan" groups="broadcom_wlan" />
+  <project path="hardware/cm" name="InfinitiveOS/hardware_cm" />
+  <project path="hardware/libhardware" name="InfinitiveOS/hardware_libhardware" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="InfinitiveOS/hardware_libhardware_legacy" groups="pdk" />
+  <project path="hardware/qcom/audio/default" name="InfinitiveOS/hardware_qcom_audio" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/bt" name="InfinitiveOS/hardware_qcom_bt" groups="qcom" />
+  <project path="hardware/qcom/display" name="InfinitiveOS/hardware_qcom_display" groups="qcom,qcom_display" />
+  <project path="hardware/qcom/gps" name="InfinitiveOS/hardware_qcom_gps" groups="qcom" />
+  <project path="hardware/qcom/keymaster" name="InfinitiveOS/hardware_qcom_keymaster" groups="qcom" />
+  <project path="hardware/qcom/media/default" name="InfinitiveOS/hardware_qcom_media" groups="qcom" />
+  <project path="hardware/qcom/wlan" name="InfinitiveOS/hardware_qcom_wlan" groups="qcom_wlan" />
+  <project path="hardware/ril" name="InfinitiveOS/hardware_ril" groups="pdk" />
+  <project path="hardware/ril-caf" name="InfinitiveOS/hardware_ril" groups="pdk" revision="lollipop-mr1-caf" />
   
-  <project path="packages/apps/Bluetooth" name="InfinitiveOS/android_packages_apps_Bluetooth" />
-  <project path="packages/apps/BluetoothExt" name="InfinitiveOS/android_packages_apps_BluetoothExt" />
-  <project path="packages/apps/Browser" name="InfinitiveOS/android_packages_apps_Browser" />
-  <project path="packages/apps/Calendar" name="InfinitiveOS/android_packages_apps_Calendar" />
-  <project path="packages/apps/Camera2" name="InfinitiveOS/android_packages_apps_Camera2" />
-  <project path="packages/apps/CellBroadcastReceiver" name="InfinitiveOS/android_packages_apps_CellBroadcastReceiver" />
-  <project path="packages/apps/Contacts" name="InfinitiveOS/android_packages_apps_Contacts" />
-  <project path="packages/apps/ContactsCommon" name="InfinitiveOS/android_packages_apps_ContactsCommon" />
-  <project path="packages/apps/DeskClock" name="InfinitiveOS/android_packages_apps_Deskclock" />
-  <project path="packages/apps/Dialer" name="InfinitiveOS/android_packages_apps_Dialer" />
-  <project path="packages/apps/Eleven" name="InfinitiveOS/android_packages_apps_Eleven" />
-  <project path="packages/apps/Gallery2" name="InfinitiveOS/android_packages_apps_Gallery2" />
-  <project path="packages/apps/InCallUI" name="InfinitiveOS/android_packages_apps_InCallUI" />
-  <project path="packages/apps/Mms" name="InfinitiveOS/android_packages_apps_Mms" />
-  <project path="packages/apps/Nfc" name="InfinitiveOS/android_packages_apps_Nfc" />
-  <project path="packages/apps/PhoneCommon" name="InfinitiveOS/android_packages_apps_PhoneCommon" />
-  <project path="packages/apps/Settings" name="InfinitiveOS/android_packages_apps_Settings" />
-  <project path="packages/apps/UnifiedEmail" name="InfinitiveOS/android_packages_apps_UnifiedEmail" />
-  <project path="packages/experimental" name="InfinitiveOS/android_packages_experimental" />
-  <project path="packages/inputmethods/LatinIME" name="InfinitiveOS/android_packages_inputmethods_LatinIME" />
+  <project path="packages/apps/Bluetooth" name="InfinitiveOS/packages_apps_Bluetooth" />
+  <project path="packages/apps/BluetoothExt" name="InfinitiveOS/packages_apps_BluetoothExt" />
+  <project path="packages/apps/Browser" name="InfinitiveOS/packages_apps_Browser" />
+  <project path="packages/apps/Calendar" name="InfinitiveOS/packages_apps_Calendar" />
+  <project path="packages/apps/Camera2" name="InfinitiveOS/packages_apps_Camera2" />
+  <project path="packages/apps/CellBroadcastReceiver" name="InfinitiveOS/packages_apps_CellBroadcastReceiver" />
+  <project path="packages/apps/Contacts" name="InfinitiveOS/packages_apps_Contacts" />
+  <project path="packages/apps/ContactsCommon" name="InfinitiveOS/packages_apps_ContactsCommon" />
+  <project path="packages/apps/DeskClock" name="InfinitiveOS/packages_apps_Deskclock" />
+  <project path="packages/apps/Dialer" name="InfinitiveOS/packages_apps_Dialer" />
+  <project path="packages/apps/Eleven" name="InfinitiveOS/packages_apps_Eleven" />
+  <project path="packages/apps/Gallery2" name="InfinitiveOS/packages_apps_Gallery2" />
+  <project path="packages/apps/InCallUI" name="InfinitiveOS/packages_apps_InCallUI" />
+  <project path="packages/apps/Mms" name="InfinitiveOS/packages_apps_Mms" />
+  <project path="packages/apps/Nfc" name="InfinitiveOS/packages_apps_Nfc" />
+  <project path="packages/apps/PhoneCommon" name="InfinitiveOS/packages_apps_PhoneCommon" />
+  <project path="packages/apps/Settings" name="InfinitiveOS/packages_apps_Settings" />
+  <project path="packages/apps/UnifiedEmail" name="InfinitiveOS/packages_apps_UnifiedEmail" />
+  <project path="packages/experimental" name="InfinitiveOS/packages_experimental" />
+  <project path="packages/inputmethods/LatinIME" name="InfinitiveOS/packages_inputmethods_LatinIME" />
   
-  <project path="packages/providers/CalendarProvider" name="InfinitiveOS/android_packages_providers_CalendarProvider" groups="pdk-cw-fs" />
-  <project path="packages/providers/ContactsProvider" name="InfinitiveOS/android_packages_providers_ContactsProvider" groups="pdk-cw-fs" />
-  <project path="packages/providers/DownloadProvider" name="InfinitiveOS/android_packages_providers_DownloadProvider" groups="pdk-cw-fs" />
-  <project path="packages/providers/MediaProvider" name="InfinitiveOS/android_packages_providers_MediaProvider" groups="pdk-cw-fs" />
-  <project path="packages/providers/TelephonyProvider" name="InfinitiveOS/android_packages_providers_TelephonyProvider" />
+  <project path="packages/providers/CalendarProvider" name="InfinitiveOS/packages_providers_CalendarProvider" groups="pdk-cw-fs" />
+  <project path="packages/providers/ContactsProvider" name="InfinitiveOS/packages_providers_ContactsProvider" groups="pdk-cw-fs" />
+  <project path="packages/providers/DownloadProvider" name="InfinitiveOS/packages_providers_DownloadProvider" groups="pdk-cw-fs" />
+  <project path="packages/providers/MediaProvider" name="InfinitiveOS/packages_providers_MediaProvider" groups="pdk-cw-fs" />
+  <project path="packages/providers/TelephonyProvider" name="InfinitiveOS/packages_providers_TelephonyProvider" />
 
-  <project path="packages/services/Mms" name="InfinitiveOS/android_packages_services_Mms" />
-  <project path="packages/services/Telecomm" name="InfinitiveOS/android_packages_services_Telecomm" />
-  <project path="packages/services/Telephony" name="InfinitiveOS/android_packages_services_Telephony" />
+  <project path="packages/services/Mms" name="InfinitiveOS/packages_services_Mms" />
+  <project path="packages/services/Telecomm" name="InfinitiveOS/packages_services_Telecomm" />
+  <project path="packages/services/Telephony" name="InfinitiveOS/packages_services_Telephony" />
 
-  <project path="system/core" name="InfinitiveOS/android_system_core" groups="pdk" />
-  <project path="system/extras" name="InfinitiveOS/android_system_extras" groups="pdk" />
-  <project path="system/keymaster" name="InfinitiveOS/android_system_keymaster" groups="pdk" />
-  <project path="system/media" name="InfinitiveOS/android_system_media" groups="pdk" />
-  <project path="system/netd" name="InfinitiveOS/android_system_netd" groups="pdk" />
-  <project path="system/qcom" name="InfinitiveOS/android_system_qcom" groups="qcom" />
-  <project path="system/security" name="InfinitiveOS/android_system_security" groups="pdk" />
-  <project path="system/vold" name="InfinitiveOS/android_system_vold" groups="pdk" />
+  <project path="system/core" name="InfinitiveOS/system_core" groups="pdk" />
+  <project path="system/extras" name="InfinitiveOS/system_extras" groups="pdk" />
+  <project path="system/keymaster" name="InfinitiveOS/system_keymaster" groups="pdk" />
+  <project path="system/media" name="InfinitiveOS/system_media" groups="pdk" />
+  <project path="system/netd" name="InfinitiveOS/system_netd" groups="pdk" />
+  <project path="system/qcom" name="InfinitiveOS/system_qcom" groups="qcom" />
+  <project path="system/security" name="InfinitiveOS/system_security" groups="pdk" />
+  <project path="system/vold" name="InfinitiveOS/system_vold" groups="pdk" />
 
-  <project path="vendor/Infinitive" name="InfinitiveOS/android_vendor_Infinitive" >
+  <project path="vendor/Infinitive" name="InfinitiveOS/vendor_Infinitive" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
